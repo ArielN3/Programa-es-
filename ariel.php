@@ -105,3 +105,58 @@ $nome = $v."dos reis";
 	echo $nome;
 
 ?>	
+<?PHP
+$valor = 10;
+if ($valor === "10"){
+	echo "Valor é string"; 	
+}
+else {
+	echo "Valor não é string";
+}
+echo "<br><br>";
+echo "Agora, fazendo cast no valor atribuido a variavel: <br>";
+$valor = (string) 10;
+if ($valor ==="10") {
+	echo "Valor não é string";
+}
+else {
+	echo "Valor não é string";
+}
+?> 
+<?PHP
+$a = 10;
+$b = 20;
+echo ($a == 10) && ($b == 20);
+echo "<br>";
+if (($a == 10) && ($b == 20)){
+	echo "Ambora os valores estão corretos <br>";
+}
+if (($a == 20) && ($b == 10)){
+	echo "Um dos valores está correto <br>";
+}
+if (($a == 10) && ($b == 10)){
+	echo "Um dos valores está errado <br>";
+}
+?>
+<?php
+$a = 3 + 5 * 4;
+$b = (3 + 5) * 4;
+echo $a;
+echo "<br>";
+echo $b; 
+
+?>
+<?PHP 
+$a = 10;
+$b = 8;
+$c = 5;
+$resultado = ($a+$b+$c)/3;
+echo "<br>A média é : $resultado";
+if ($resultado >= 7) {
+    echo "<br>Aprovado";
+} 
+else {
+    echo "<br> Reprovado";
+}
+
+?>
