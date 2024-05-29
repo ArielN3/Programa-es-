@@ -148,15 +148,27 @@ echo $b;
 ?>
 <?PHP 
 $a = 10;
-$b = 8;
-$c = 5;
+$b = 10;
+$c = 10;
+$d = 10;
 $resultado = ($a+$b+$c)/3;
 echo "<br>A média é : $resultado";
-if ($resultado >= 7) {
+
+if ($resultado >= 7&& $resultado!=10) {
     echo "<br>Aprovado";
 } 
-else {
-    echo "<br> Reprovado";
+
+elseif ($resultado == 10){	
+    echo "<br> Parbéns! Aprovado com nota maxima.";
 }
+elseif ($resultado == 0){	
+    echo "<br> Estude mais,você não acertou nada";
+}
+elseif ($resultado <=7 ){	
+    echo "<br> Aluno Reprovado, BURROOOO";
+}
+
+ 
+
 
 ?>
