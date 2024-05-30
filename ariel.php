@@ -169,12 +169,31 @@ elseif ($resultado <=7 ){
  
 ?>
 <?PHP
-$num = 30;
+$num = 50;
 if ($num  <20){
 	echo "O numero e menor que 20";
 }
 elseif ($num >20){
 	echo "O numero e maior que 20";
 }
-arielN3suporte
+else
 ?>
+
+<?PHP 
+echo "<br>";
+$num = 00;
+if ($num >= 20){
+	echo "O numero e maior  que 20";
+}
+elseif ($num <= 20&& $num!=0){
+	echo "O numero e menor que 20";
+}
+elseif ($num = 20){
+	echo "O numero e igual a 20";
+}
+elseif ($num  == 0) {
+	echo "O numero e nulo";
+}
+else
+?> 
+
