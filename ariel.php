@@ -263,3 +263,38 @@ echo (round(0.60)) . "<br>";
 echo (rand()) . "<br>";
 echo (rand(10, 50)) . "<br>";
 ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArielSuporteN3</title>
+</head>
+<body>
+    <STYLE>
+    h1 { color: rgb(255, 285, 0)}
+    body {background-color: rgb(82, 120, 124);}
+    </STYLE>
+    <h1>Um texto de  parágrafo</H1><br>
+    <h2>Um texto de  parágrafo</H2><br>
+    <h3>Um texto de  parágrafo</H3><br>
+    <h4>Um texto de  parágrafo</H4><br>
+    <h5>Um texto de  parágrafo</H5><br>
+    <h6>Um texto de  parágrafo</H6><br>
+    <br>
+    <p id="p1">
+    <B>negrito</B><BR>
+    <p><STRONG>negrito</STRONG><BR>
+    <I>itálico</I><BR>
+    <EM>itálico</EM><BR>
+    <U>sublinhado</U><BR>
+    <SUB>subscrito</SUB><BR>
+    <SOB>sobrescrito</SOB><BR>  
+    <SMALL>letra menor que o normal</SMALL><BR>
+    <STRIKE>texto tachado</STRIKE>
+    </p>
+    <P style="font-family: 'Times New Roman'">Olá Mundo!</p>
+    <P style="font-family:'Helvetica'">Olá de novo Mundo!</p>
+</body>
+</html>
