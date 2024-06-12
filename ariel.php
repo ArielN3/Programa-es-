@@ -409,3 +409,186 @@ echo (rand(10, 50)) . "<br>";
 
 </body>
 </html>
+
+
+
+Index.html
+     -      -
+      -    -
+       -  -  
+	- 
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LINKS</title>
+</head>
+    <body>
+        <STYLE>
+            h1 { color: rgb(69, 196, 255)}
+            h2{color: rgb(7, 135, 255)}
+            body {background-color: rgb(255, 255, 255);}
+        </STYLE> 
+            <h1>Exerccio de Link</H1>
+                <hr>
+                <h2>Um dos meus dias mais produtivos foi quando eu joguei fora 1000 linhas de código.</h2>
+            <img src='imglink.jfif' width="500px">
+<br>
+         <ol>
+            <li> <A href='verde.html'>Pagina Verde</a></li>
+            <li> <A href='amarelo.html'>Pagina Amarela </a></li>    
+            <li> <A href='vermelho.html'>Pagina Vermelha </a></li>
+            <li> <A href='azul.html'>Pagina Azul</a></li>
+         </ol>
+    </body>
+</html><!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LINKS</title>
+</head>
+    <body>
+        <STYLE>
+            h1 { color: rgb(69, 196, 255)}
+            h2{color: rgb(7, 135, 255)}
+            body {background-color: rgb(255, 255, 255);}
+        </STYLE> 
+            <h1>Exerccio de Link</H1>
+                <hr>
+                <h2>Um dos meus dias mais produtivos foi quando eu joguei fora 1000 linhas de código.</h2>
+            <img src='imglink.jfif' width="500px">
+<br>
+         <ol>
+            <li> <A href='verde.html'>Pagina Verde</a></li>
+            <li> <A href='amarelo.html'>Pagina Amarela </a></li>    
+            <li> <A href='vermelho.html'>Pagina Vermelha </a></li>
+            <li> <A href='azul.html'>Pagina Azul</a></li>
+         </ol>
+    </body>
+</html>
+
+		
+verde.html
+     -      -
+      -    -
+       -  -  
+	- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Verde</title>
+</head>
+    <body>
+        <STYLE>
+        h1 { color: rgb(0, 17, 255)}
+        body {background-color: rgb(43, 255, 0);}
+        </STYLE>
+        <h1>Exerccio de Link</H1><br>
+<br>    
+        <ol>
+            <li> <A href='amarelo.html'>Pagina Amarela </a></li>    
+            <li> <A href='vermelho.html'>Pagina vermelho </a></li>
+            <li> <A href='azul.html'>Pagina Azul</a></li>
+            <li> <A href='index.html'>Voltar Inicio</a></li>
+        </ol>
+    </body>
+</html>
+
+
+		
+ amarelo.html
+     -      -
+      -    -
+       -  -  
+	- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Verde</title>
+</head>
+    <body>
+        <STYLE>
+        h1 { color: rgb(0, 17, 255)}
+        body {background-color: rgb(251, 255, 0);}
+        </STYLE>
+        <h1>Exerccio de Link</H1><br>
+<br>    
+        <ol>
+            <li> <A href='verde.html'>Pagina Verde</a></li>
+            <li> <A href='vermelho.html''>Pagina Vermelho </a></li>
+            <li> <A href='azul.html'>Pagina Azul</a></li>
+            <li> <A href='index.html'>Voltar Inicio</a></li>
+        </ol>
+    </body>
+</html>
+
+		
+
+ azul.html
+     -      -
+      -    -
+       -  -  
+	- 		
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Verde</title>
+</head>
+    <body>
+        <STYLE>
+        h1 { color: rgb(0, 17, 255)}
+        body {background-color: rgb(0, 255, 255);}
+        </STYLE>
+        <h1>Exerccio de Link</H1><br>
+<br>    
+        <ol>
+            <li> <A href='verde.html'>Pagina Verde</a></li>
+            <li> <A href='amarelo.html'>Pagina Amarela </a></li>    
+            <li> <A href='vermelho.html'>Pagina Vermelho </a></li>
+            <li> <A href='index.html'>Voltar Inicio</a></li>
+        </ol>
+    </body>
+</html>
+
+
+ vermelhor.html
+     -      -
+      -    -
+       -  -  
+	- 	
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Verde</title>
+</head>
+    <body>
+        <STYLE>
+        h1 { color: rgb(0, 17, 255)}
+        body {background-color: rgb(245, 49, 0);}
+        </STYLE>
+        <h1>Exerccio de Link</H1><br>
+<br>    
+        <ol>
+            <li> <A href='verde.html'>Pagina Verde</a></li>
+            <li> <A href='amarelo.html'>Pagina Amarela </a></li>    
+            <li> <A href='azul.html'>Pagina Azul</a></li>
+            <li> <A href='index.html'>Voltar Inicio</a></li>
+        </ol>
+    </body>
+</html>
