@@ -298,3 +298,114 @@ echo (rand(10, 50)) . "<br>";
     <P style="font-family:'Helvetica'">Olá de novo Mundo!</p>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArielSuporteN3</title>
+    <style>
+        h1 { color: rgb(255, 285, 0)}
+        body { background-color: rgb(0, 174, 255) }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        tr, th, td {
+            border: 1px solid rgb(0, 0, 0);
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #bcdfff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Um texto de parágrafo</h1><br>
+    <h2>Um texto de parágrafo</h2><br>
+    <h3>Um texto de parágrafo</h3><br>
+    <h4>Um texto de parágrafo</h4><br>
+    <h5>Um texto de parágrafo</h5><br>
+    <h6>Um texto de parágrafo</h6><br>
+
+    <p id="p1">
+        <b>negrito</b><br>
+        <strong>negrito</strong><br>
+        <i>itálico</i><br><!--Define um texto em itálico;-->
+        <em>itálico</em><br>
+        <u>sublinhado</u><br><!--Define sublinhado.-->
+        <sub>subscrito</sub><br><!--Define um texto subscrito;-->
+        <sup>sobrescrito</sup><br><!--Define um texto sobrescrito;-->
+        <small>letra menor que o normal</small><br>
+        <strike>texto tachado</strike>
+    </p>
+
+    <p style="font-family: 'Times New Roman'">“Um dos meus dias mais produtivos foi quando eu joguei fora 1000 linhas de código.” – Ken Thompson</p>
+    <p style="font-family:'Helvetica'"> “Inspecionar para prevenir defeitos é bom; Inspecionar para encontrar defeitos é desperdício.” – Shigeo Shingo</p>
+
+    <ol> <!-- lista ordenada -->
+
+        <li>item</li><!--Define os itens da lista;-->
+        <li>item</li><!--Define os itens da lista;-->
+        <li>item</li><!--Define os itens da lista;-->
+        <li>item</li><!--Define os itens da lista;-->
+        <li>item</li><!--Define os itens da lista;-->
+
+    </ol> <!-- lista ordenada -->
+
+    <ul> <!-- lista não ordenada -->
+
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+
+    </ul> <!-- lista não ordenada -->
+
+    <table><!--Define uma tabela;-->
+
+        <tr><!--Define uma linha da tabela;-->
+            <th>País</th><!--Define o cabeçalho da tabela;-->
+            <th>Estado</th><!--Define o cabeçalho da tabela;-->
+            <th>Cidade</th><!--Define o cabeçalho da tabela;-->
+
+        </tr><!--Define uma linha da tabela;-->
+        <tr>
+
+            <td>Brasil</td><!--Define uma célula da tabela;-->
+            <td>Bahia</td><!--Define uma célula da tabela;-->
+            <td>Remanso</td><!--Define uma célula da tabela;-->
+
+        </tr><!--Define uma linha da tabela;-->
+        <tr><!--Define uma linha da tabela;-->
+
+            <td>Espanha</td><!--Define uma célula da tabela;-->
+            <td>Brisbane</td><!--Define uma célula da tabela;-->
+            <td>Guangdong</td><!--Define uma célula da tabela;-->
+
+        </tr><!--Define uma linha da tabela;-->
+        <tr><!--Define uma linha da tabela;-->
+
+            <td>China</td><!--Define uma célula da tabela;-->
+            <td>Queensland</td><!--Define uma célula da tabela;-->
+            <td>Xangai</td><!--Define uma célula da tabela;-->
+
+        </tr><!--Define uma linha da tabela;-->
+
+    </table>
+
+    <br> <!--TEG para espaço de um codigo para o outro-->
+
+    <img src='sys32im.jfif' width="300px"> <!-- caminho relativo à página -->
+    <BR><!--TEG para espaço de um codigo para o outro-->
+    <br><!--TEG para espaço de um codigo para o outro-->
+    <a href='https://g.co/kgs/BZXbucR'>Descontração</a>
+    <br><!--TEG para espaço de um codigo para o outro-->
+    <br><!--TEG para espaço de um codigo para o outro-->
+    <A href='https://www.tjsc.jus.br/web/servidor/dicas-de-ti/-/asset_publisher/0rjJEBzj2Oes/content/entenda-como-funcionam-os-ataques-de-hackers-na-internet#:~:text=Ataques%20na%20internet%20s%C3%A3o%20as,extors%C3%A3o%20do%20titular%20dos%20dados.'><IMG src='sys32im.jfif' width="300px"></A> 
+
+</body>
+</html>
