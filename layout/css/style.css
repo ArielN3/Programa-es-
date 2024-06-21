@@ -1,0 +1,33 @@
+#corpo{
+    background-color: rgba(86, 6, 126, 0.978);
+}
+#principal {
+    border: 5px solid rgb(0, 217, 255);
+    padding: 5px;
+    margin: 50px;
+    box-shadow: 10px 10px 1cm rgb(138, 3, 255);
+}
+#banner{
+    border: 4px solid rgb(132, 0, 255);
+    height: 200px;
+    background-image: url(../imagens/img1.png);
+    background-size:399px 208px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(60, 26, 101);
+}
+#menu{
+    border: 4px solid rgb(132, 0, 255);
+    height: 70px;
+    margin: 6px 0;
+}
+#conteudo{
+    border: 4px solid rgb(132, 0, 255);
+    height: 400px;
+    margin-bottom: 6px;
+    
+}
+#rodape{
+    border:3px solid  rgb(132, 0, 255);
+    height: 50px;
+}
