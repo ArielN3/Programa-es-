@@ -1,0 +1,34 @@
+body{
+background: linear-gradient(rgb(32, 13, 240), rgba(0, 199, 249, 0.703));
+height: 1780px;
+/**background-color: NONE;**/
+/**background-image: 
+url(),imagens
+url(),imagens**/
+/**background-repeat:**/
+/**repeat-x,repete as imagens para o lado**/
+/**repeat-y;repete as imagens para sima e baixo**/
+/**background-position:**/ 
+/**right 120px,**/
+/**center;**/ 
+}
+
+#font {
+    color:rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;/**Fonte do texto**/
+    font-style: none;/**Fonte do texto**/
+    font-size: 18px;/**tamanho da fonte**/
+    font-stretch: expanded;
+    text-indent: 50px;/**Esp    aço no começo do paragrafo**/
+}
+#text {
+    color:rgb(255, 255, 255);
+    text-indent: 50px;/**Espaço no começo do paragrafo**/
+    text-align: justify;
+    text-transform: none;
+    text-decoration: underline;/**Aplicações ao texto**/
+    word-spacing: 2px;/**espaçamento entre palavras**/
+    letter-spacing: 3px;
+    white-space: none;/**configuração dos espaços em branco**/
+    word-break: normal;
+}
