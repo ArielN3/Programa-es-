@@ -1,5 +1,5 @@
 body{
-background: linear-gradient(rgb(32, 13, 240), rgba(0, 199, 249, 0.703));
+background: radial-gradient(rgb(251, 18, 53), rgba(69, 0, 243, 0.94), rgba(0, 233, 202, 0.703));
 height: 1780px;
 /**background-color: NONE;**/
 /**background-image: 
@@ -14,15 +14,16 @@ url(),imagens**/
 }
 
 #font {
-    color:rgb(255, 255, 255);
-    font-family: 'Times New Roman', Times, serif;/**Fonte do texto**/
+    color:rgb(26, 21, 21);
+    font-family: none;/**Fonte do texto**/
     font-style: none;/**Fonte do texto**/
     font-size: 18px;/**tamanho da fonte**/
     font-stretch: expanded;
     text-indent: 50px;/**Esp    aço no começo do paragrafo**/
+    text-indent: 50px;
 }
 #text {
-    color:rgb(255, 255, 255);
+    color:rgb(12, 7, 7);
     text-indent: 50px;/**Espaço no começo do paragrafo**/
     text-align: justify;
     text-transform: none;
@@ -31,4 +32,58 @@ url(),imagens**/
     letter-spacing: 3px;
     white-space: none;/**configuração dos espaços em branco**/
     word-break: normal;
+}
+aside{
+    padding: 0px;
+    width: 20%;
+    border-width: 150px;
+    border-style: solid;
+    border-image: url(imagem/img4.jpg);
+
+}
+.nova1{
+    border: 10px dotted blueviolet;
+    border-bottom-width: 20px;
+    border-left-color: rgb(99, 10, 223);
+    margin: 20px;/**afasta oque esta por fora**/
+    padding: 20px;/*afasta oque esta por dentro**/
+    font-size: 20px;
+}
+
+.nova2{
+    border:  10px outset rgb(10, 4, 131);
+    height: 50px;
+    padding: 20px;
+    margin: 20px;
+}
+.nova3{
+    border: 10px outset rgb(52, 43, 226);
+    padding: 50px;
+    margin: 25px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+.nova4{
+    border: 10px double rgb(52, 43, 226);
+    padding: 50px;
+    margin: 25px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+.nova5{
+    border: 10px groove rgb(52, 43, 226);
+    padding: 50px;
+    margin: 25px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+.nova6{
+    border: 10px dashed rgb(52, 43, 226);
+    padding: 50px;
+    margin: 25px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+h1{
+    color:aliceblue ;
 }
