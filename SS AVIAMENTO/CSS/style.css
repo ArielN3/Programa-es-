@@ -1,0 +1,25 @@
+body{
+}
+table{
+    display: flex;
+    justify-content:center ;
+}
+#principal{
+    background-color: rgb(13, 65, 76);
+}
+#banner{
+    height: 120px;
+    width: 728;
+    background-image: url(/img/SS\ AVIAMENTOS.png);
+    background-size: 100%;
+}
+a{
+    margin-right: 25px;
+    text-decoration: none;
+    color: azure;
+    font-weight: bold;
+    font-size: 20px;
+}
+#menu{
+
+}
