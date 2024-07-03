@@ -1,25 +1,36 @@
-body{
-}
-table{
-    display: flex;
-    justify-content:center ;
-}
-#principal{
-    background-color: rgb(13, 65, 76);
-}
+
+/**#principal{
+   
+}**/
 #banner{
     height: 120px;
     width: 728;
     background-image: url(/img/SS\ AVIAMENTOS.png);
     background-size: 100%;
 }
+#menu{
+    height:40px;
+    margin-top: 5px;
+}
 a{
     margin-right: 25px;
     text-decoration: none;
-    color: azure;
+    color: rgb(210, 211, 211);
     font-weight: bold;
     font-size: 20px;
 }
-#menu{
+a:hover{
+    color: rgb(173, 238, 251);
+}
 
+table{
+    display: flex;
+    justify-content:center ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background: rgb(12, 76, 98)
+}
+iframe{
+    width: 500px;
+    height: 500px;
+    border: none;
 }
