@@ -1,12 +1,13 @@
 
-/**#principal{
-   
-}**/
 #banner{
     height: 120px;
     width: 728;
     background-image: url(/img/SS\ AVIAMENTOS.png);
+    background-repeat: no-repeat;
     background-size: 100%;
+    background-position-x: center ;
+    background-color: rgb(12, 76, 98)
+
 }
 #menu{
     height:40px;
@@ -34,3 +35,5 @@ iframe{
     height: 500px;
     border: none;
 }
+
+
