@@ -1,0 +1,12 @@
+#img{
+    padding: 20px; /* Adiciona preenchimento interno à seção */
+    background-color:#d8d4d4;; /* Define a cor de fundo da seção */
+    margin: 20px; /* Define a margem externa da seção */
+    border-radius: 5px; /* Adiciona cantos arredondados à seção */
+    box-shadow: 0 0 20px rgba(14, 3, 3, 0.623); /* Adiciona sombra à seção */
+}
+body{
+    background: url(/img/fundo.jfif);
+    background-repeat: no-repeat ;
+    background-size: 200%;
+}

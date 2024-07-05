@@ -1,39 +1,40 @@
-
-#banner{
-    height: 120px;
-    width: 728;
-    background-image: url(/img/SS\ AVIAMENTOS.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position-x: center ;
-    background-color: rgb(12, 76, 98)
-
-}
-#menu{
-    height:40px;
-    margin-top: 5px;
-}
-a{
-    margin-right: 25px;
-    text-decoration: none;
-    color: rgb(210, 211, 211);
-    font-weight: bold;
-    font-size: 20px;
-}
-a:hover{
-    color: rgb(173, 238, 251);
+#banner {
+    height: 120px; /* Altura do banner */
+    width: 728px; /* Largura do banner */
+    background-image: url(/img/SS\ AVIAMENTOS.png); /* Imagem de fundo do banner */
+    background-repeat: no-repeat; /* Não repetir a imagem de fundo */
+    background-size: 100%; /* Tamanho da imagem de fundo: 100% do container */
+    background-position-x: center; /* Posicionamento horizontal centralizado da imagem de fundo */
+    background-color: rgb(12, 76, 98); /* Cor de fundo do banner */
 }
 
-table{
-    display: flex;
-    justify-content:center ;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    background: rgb(12, 76, 98)
-}
-iframe{
-    width: 100%;
-    height: 900px;
-    border: none;
+#menu {
+    height: 40px; /* Altura do menu */
+    margin-top: 5px; /* Margem superior do menu */
+   
 }
 
+a {
+    margin-right: 25px; /* Margem direita dos links */
+    text-decoration: none; /* Remover decoração de texto (sublinhado padrão) */
+    color: rgb(210, 211, 211); /* Cor do texto dos links */
+    font-weight: bold; /* Texto em negrito */
+    font-size: 20px; /* Tamanho da fonte dos links */
+}
 
+a:hover {
+    color: rgb(173, 238, 251); /* Cor do texto dos links ao passar o mouse */
+}
+
+table {
+    display: flex; /* Exibir a tabela como um contêiner flexível */
+    justify-content: center; /* Centralizar conteúdo horizontalmente na tabela */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Fonte da tabela */
+    background: rgb(12, 76, 98); /* Cor de fundo da tabela */
+}
+
+iframe {
+    width: 1359px; /* Largura do iframe */
+    height: 500px; /* Altura do iframe */
+    border: none; /* Remover borda do iframe */
+}

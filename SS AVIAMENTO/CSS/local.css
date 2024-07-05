@@ -1,0 +1,33 @@
+
+header {
+    background-color: #818181; /* Define a cor de fundo do cabeçalho */
+    color: #fff; /* Define a cor do texto no cabeçalho */
+    text-align: center; /* Centraliza o conteúdo do cabeçalho */
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        
+}
+section {
+    padding: 20px; /* Adiciona preenchimento interno à seção */
+    background-color:#d8d4d4;; /* Define a cor de fundo da seção */
+    margin: 20px; /* Define a margem externa da seção */
+    border-radius: 5px; /* Adiciona cantos arredondados à seção */
+    box-shadow: 0 0 20px rgba(14, 3, 3, 0.623); /* Adiciona sombra à seção */
+    
+    
+}
+
+section h2 {
+    font-size: 1.5em; /* Define o tamanho da fonte do título secundário */
+    margin-bottom: 10px; /* Define a margem inferior do título secundário */
+}
+
+section p {
+    font-size: 1.1em; /* Define o tamanho da fonte do texto na seção */
+    line-height: 1.8; /* Define o espaçamento entre linhas do texto na seção */
+}  
+body{
+    background: url(/img/fundo.jfif);
+    background-repeat: no-repeat ;
+    background-size: 200%;
+}
+

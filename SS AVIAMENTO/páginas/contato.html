@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="/CSS/contato.css"> <!-- Importa o arquivo de estilo CSS -->
+</head>
+
+<body>
+    <div id="formulario">
+        <h1>📞 Fale Conosco📞 </h1>
+        <form action="">
+            <!-- Campo para nome -->
+            <label>Nome</label>
+            <input type="text" name="nome" placeholder="Digite seu nome" required>
+
+            <hr>
+
+            <!-- Campo para endereço -->
+            <label>Endereço</label>
+            <input type="text" name="Endereço" placeholder="Digite seu endereço" required>
+
+            <hr>
+
+            <!-- Campo para senha -->
+            <label>Senha</label>
+            <input type="password" name="Senha" maxlength="5" placeholder="Digite sua senha" required>
+
+            <hr>
+
+            <!-- Campo para data -->
+            <label>Data</label>
+            <input type="date" required>
+
+            <hr>
+
+            <!-- Campos para seleção de sexo -->
+            <label>Sexo</label>
+            <input type="radio" name="Sexo" value="masc">Masculino
+            <input type="radio" name="Sexo" value="masc">Feminino
+
+            <hr>
+
+            <!-- Campos para seleção de cores preferidas -->
+            <label>Quais suas cores preferidas</label>
+            <input type="checkbox" name="cores" value="verde">Verde
+            <input type="checkbox" name="cores" value="amarelo">Amarelo
+            <input type="checkbox" name="cores" value="vermelho">vermelho
+            <input type="checkbox" name="cores" value="Azul">Azul
+
+            <hr>
+
+            <!-- Campo para email -->
+            <label>Email</label>
+            <input type="email" name="email" placeholder="Digite seu e-mail">
+
+            <hr>
+
+            <!-- Campo para seleção de UF -->
+            <label>UF</label>
+            <select name="uf">
+                <option></option>
+                <option>-DF-</option>
+                <option>-GO-</option>
+                <option selected>-MT-</option>
+                <option>-MS-</option>
+                <option></option>
+            </select>
+
+            <hr>
+
+            <!-- Campo para anexar documento -->
+            <label>Anexar Documento</label>
+            <input type="file">
+
+            <hr>
+
+            <!-- Campo para deixar comentário -->
+            <label>Deixe aqui o seu comentario:</label>
+            <br>
+            <textarea name="comentario" cols="60" rows="5"></textarea><br><br>
+
+            <!-- Botões para resetar e enviar formulário -->
+            <input type="reset" value="Cancelar">
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+
+</html>

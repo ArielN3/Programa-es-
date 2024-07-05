@@ -1,0 +1,45 @@
+/* Estilos gerais para todo o layout */
+#layout {
+    font-family: Arial, sans-serif; /* Define a fonte padrão para todo o layout */
+    line-height: 1.6; /* Define o espaçamento entre linhas para todo o texto */
+    margin: 0; /* Remove margens externas */
+    padding: 0; /* Remove preenchimento interno */
+    background-color: rgb(12, 76, 98); /* Define a cor de fundo para todo o layout */
+}
+
+header {
+    background-color: #818181; /* Define a cor de fundo do cabeçalho */
+    color: #fff; /* Define a cor do texto no cabeçalho */
+    text-align: center; /* Centraliza o conteúdo do cabeçalho */
+    box-shadow: 0 0 60px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    font-size: 1.5em; /* Define o tamanho da fonte do título principal do cabeçalho */
+}
+
+header p {
+    font-size: 1.2em; /* Define o tamanho da fonte do texto no cabeçalho */
+}
+
+/* Estilos para a seção principal */
+section {
+    padding: 20px; /* Adiciona preenchimento interno à seção */
+    background-color: #d8d4d4; /* Define a cor de fundo da seção */
+    margin: 20px; /* Define a margem externa da seção */
+    border-radius: 5px; /* Adiciona cantos arredondados à seção */
+    box-shadow: 0 0 90px rgba(0,0,0,0.1); /* Adiciona sombra à seção */
+}
+
+section h2 {
+    font-size: 1.5em; /* Define o tamanho da fonte do título secundário */
+    margin-bottom: 10px; /* Define a margem inferior do título secundário */
+}
+
+section p {
+    font-size: 1.1em; /* Define o tamanho da fonte do texto na seção */
+    line-height: 1.8; /* Define o espaçamento entre linhas do texto na seção */
+}
+body{
+    background-image: url(/img/img\ home.jpg);
+}
