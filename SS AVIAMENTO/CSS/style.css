@@ -31,8 +31,8 @@ table{
     background: rgb(12, 76, 98)
 }
 iframe{
-    width: 500px;
-    height: 500px;
+    width: 100%;
+    height: 900px;
     border: none;
 }
 
