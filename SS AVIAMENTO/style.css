@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+    background-color: rgb(58, 58, 58);  
+}
+table{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(203, 203, 203);
+    font-size: 19px;
+}
+h1{
+    font-size: 2cm;
+    color: rgb(243, 193, 95);
+    font-family:MV boli, Tahoma, sans-serif;
+    text-decoration: underline;
+}
+header{
+    background-color: rgb(12, 12, 12);
+    border-radius: 1000px;    
+}
+
+
