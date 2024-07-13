@@ -1,21 +1,84 @@
 body{
     text-align: center;
-    background-color: rgb(58, 58, 58);  
+    background-color: rgb(58, 58, 58); 
+    background-image:url(fundo.jfif); 
+    
 }
 table{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(203, 203, 203);
-    font-size: 19px;
+    color: rgb(221, 218, 218);
+    font-size: 16px;
 }
 h1{
-    font-size: 2cm;
-    color: rgb(243, 193, 95);
+    font-size: 1.4cm;
+    color: rgb(243, 220, 176);
     font-family:MV boli, Tahoma, sans-serif;
     text-decoration: underline;
 }
 header{
-    background-color: rgb(12, 12, 12);
+    background-color: rgba(12, 8, 0, 0.431);
     border-radius: 1000px;    
+    box-shadow: 0 0 20px rgba(246, 244, 244, 0.525);
+   
 }
-
-
+#cardapio{
+    background-color: rgba(7, 7, 7, 0.47);
+    border-radius: 1000px;    
+    box-shadow: 0 0 20px rgba(17, 16, 16, 0.525);
+   
+}
+.cerva{
+    font-weight: bolder;
+    color: black;
+    text-shadow: 0 0 0.7em red;
+    background-color: rgb(253, 191, 47);
+}
+.baldegrande{
+    font-weight: bolder;
+    color: black;
+    text-shadow: 0 0 0.7em red;
+    background-color: rgb(253, 191, 47);
+}
+.baldepequeno{
+    font-weight: bolder;
+    color: black;
+    text-shadow: 0 0 0.7em red;
+    background-color: rgb(253, 191, 47);
+}
+.combosw{
+    font-weight: bolder;
+    color: black;
+    text-shadow: 0 0 0.7em red;
+    background-color: rgb(253, 191, 47);
+}
+.combosv{
+    font-weight: bolder;
+    color: black;
+    text-shadow: 0 0 0.7em red;
+    background-color: rgb(253, 191, 47);
+}
+.combog{
+    font-weight: bolder;
+    color: black;
+    text-shadow: 0 0 0.7em red;
+    background-color: rgb(253, 191, 47);
+}
+.doses{
+    font-weight: bolder;
+    color: black;
+    text-shadow: 0 0 0.7em red;
+    background-color: rgb(253, 191, 47);
+}
+.outros{
+    font-weight: bolder;
+    color: black;
+    text-shadow: 0 0 0.7em rgb(255, 0, 0);
+    background-color: rgb(253, 191, 47);
+}
+p{
+    color: rgba(240, 248, 255, 0.596);
+}
+.zap{
+    text-align: center;
+    font-size: 22px;
+}
