@@ -1,12 +1,14 @@
 #banner {
-    height: 120px; /* Altura do banner */
-    width: 728px; /* Largura do banner */
+    height: 175px; /* Altura do banner */
+    width: 1000pxpx; /* Largura do banner */
+    object-fit: cover;
     background-image: url(/img/SS\ AVIAMENTOS.png); /* Imagem de fundo do banner */
     background-repeat: no-repeat; /* Não repetir a imagem de fundo */
     background-size: 100%; /* Tamanho da imagem de fundo: 100% do container */
     background-position-x: center; /* Posicionamento horizontal centralizado da imagem de fundo */
     background-color: rgb(12, 76, 98); /* Cor de fundo do banner */
 }
+
 
 #menu {
     height: 40px; /* Altura do menu */
