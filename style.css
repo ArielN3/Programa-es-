@@ -1,0 +1,41 @@
+#banner {
+    height: 175px; /* Altura do banner */
+    width: 1000pxpx; /* Largura do banner */
+    object-fit: cover;
+    background-image: url(/img/SS\ AVIAMENTOS.png); /* Imagem de fundo do banner */
+    background-repeat: no-repeat; /* Não repetir a imagem de fundo */
+    background-size: 100%; /* Tamanho da imagem de fundo: 100% do container */
+    background-position-x: center; /* Posicionamento horizontal centralizado da imagem de fundo */
+    background-color: rgb(12, 76, 98); /* Cor de fundo do banner */
+}
+
+#menu {
+    height: 40px; /* Altura do menu */
+    margin-top: 5px; /* Margem superior do menu */
+   
+}
+
+a {
+    margin-right: 25px; /* Margem direita dos links */
+    text-decoration: none; /* Remover decoração de texto (sublinhado padrão) */
+    color: rgb(210, 211, 211); /* Cor do texto dos links */
+    font-weight: bold; /* Texto em negrito */
+    font-size: 20px; /* Tamanho da fonte dos links */
+}
+
+a:hover {
+    color: rgb(173, 238, 251); /* Cor do texto dos links ao passar o mouse */
+}
+
+table {
+    display: flex; /* Exibir a tabela como um contêiner flexível */
+    justify-content: center; /* Centralizar conteúdo horizontalmente na tabela */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Fonte da tabela */
+    background: rgb(12, 76, 98); /* Cor de fundo da tabela */
+}
+
+iframe {
+    width: 1359px; /* Largura do iframe */
+    height: 500px; /* Altura do iframe */
+    border: none; /* Remover borda do iframe */
+}

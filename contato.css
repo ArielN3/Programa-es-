@@ -1,0 +1,22 @@
+/* Estilos para o formulário */
+#formulario {
+    font-family: 'Times New Roman', Times, serif; /* Define a fonte para o formulário */
+    background-color: rgb(12, 76, 98); /* Cor de fundo do formulário */
+    margin-left: auto; /* Centraliza o formulário na horizontal */
+    margin-right: auto; /* Centraliza o formulário na horizontal */
+    text-align: center; /* Alinha o conteúdo do formulário ao centro */
+    font-size: 20px; /* Define o tamanho da fonte do formulário */
+}
+
+/* Estilos para rótulos (labels) */
+label {
+    display: block; /* Define os rótulos como elementos de bloco */
+    margin-bottom: 0.5em; /* Espaçamento inferior entre os rótulos */
+    font-weight: bold; /* Define o peso da fonte dos rótulos como negrito */
+    color: aliceblue; /* Cor do texto dos rótulos */
+}
+
+/* Estilos para o título h1 */
+h1 {
+    color: rgb(232, 238, 243); /* Cor do texto do título h1 */
+}

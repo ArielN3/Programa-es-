@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SS Aviamento</title>
+    <link rel="stylesheet" href="CSS/style.css"> <!-- Importa o arquivo de estilo CSS -->
+</head>
+
+<body>
+  
+    <div id="principal">
+        <!-- Cabeçalho do site -->
+        <header>
+            <div id="banner"></div> <!-- Div para o banner -->
+        </header>
+        <!-- Navegação principal -->
+        <nav>
+            <div id="menu">
+                <!-- Tabela para o menu de navegação -->
+                <table>
+                    <tr>
+                        <!-- Links para as diferentes páginas, com destino no iframe "Conteudo" -->
+                        <td><a href="/Páginas/Home.html" target="Conteudo">HOME</a></td>
+                        <td></td>
+                        <td><a href="/Páginas/produtos.html" target="Conteudo">PRODUTOS</a></td>
+                        <td></td>
+                        <td><a href="/Páginas/curso.html" target="Conteudo">CURSOS</a></td>
+                        <td></td>
+                        <td><a href="/Páginas/local.html" target="Conteudo">LOCALIZAÇÃO</a></td>
+                        <td></td>
+                        <td><a href="/Páginas/contato.html" target="Conteudo">FALE CONOSCO</a></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+        </nav>
+        <!-- Conteúdo principal da página -->
+        <main>
+            <div id="Conteudo">
+                <!-- Iframe para carregar o conteúdo das páginas conforme os links do menu -->
+                <iframe src="/Páginas/Home.html" name="Conteudo"></iframe>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html> 
